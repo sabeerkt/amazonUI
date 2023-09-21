@@ -86,192 +86,13 @@ class _homeState extends State<home> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/shampo.jpeg', 
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), 
-                          const Text(
-                            '   creams    ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/i4ios.jpeg', // Replace with the path to your image asset
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), // Adjust the spacing between the image and text
-                          const Text(
-                            '   Mobile    ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/menimg.jpeg', // Replace with the path to your image asset
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), // Adjust the spacing between the image and text
-                          const Text(
-                            '   Fashions', //    ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/deal.jpeg', // Replace with the path to your image asset
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), // Adjust the spacing between the image and text
-                          const Text(
-                            '   Deal    ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/mini tv.png', // Replace with the path to your image asset
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), // Adjust the spacing between the image and text
-                          const Text(
-                            '   Mini Tv   ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Container(
-                            height: 50,
-                            width: 50,
-                            decoration: const BoxDecoration(
-                              shape: BoxShape.circle,
-                            ),
-                            child: ClipOval(
-                              child: Image.asset(
-                                'assets/headphone.jpeg', // Replace with the path to your image asset
-                                fit: BoxFit
-                                    .cover, // Adjust this property to control how the image fits within the circle
-                              ),
-                            ),
-                          ),
-                          const SizedBox(
-                              height:
-                                  8), // Adjust the spacing between the image and text
-                          const Text(
-                            '   Electrics    ',
-                            style: TextStyle(
-                              fontSize: 16,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
+                    scrrol(imagepath: "assets/facewash.jpeg", text: "facewash"),
+                    scrrol(imagepath: "assets/fashion.jpeg", text: "fashion"),
+                    scrrol(
+                        imagepath: "assets/furniture.jpeg", text: "furniture"),
+                    scrrol(imagepath: "assets/iphone.jpeg", text: "mobile"),
+                    scrrol(imagepath: "assets/mini tv.png", text: "mini tv"),
+                    scrrol(imagepath: "assets/grocery.jpeg", text: "grocery"),
                   ],
                 ),
               ),
@@ -439,6 +260,38 @@ class _homeState extends State<home> {
           ),
         ),
         backgroundColor: Colors.white,
+      ),
+    );
+  }
+
+  Padding scrrol({required String imagepath, String? text}) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+        children: [
+          Container(
+            height: 50,
+            width: 50,
+            decoration: const BoxDecoration(
+              shape: BoxShape.circle,
+            ),
+            child: ClipOval(
+              child: Image.asset(
+                imagepath,
+                fit: BoxFit
+                    .cover, // Adjust this property to control how the image fits within the circle
+              ),
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            text!,
+            style: TextStyle(
+              fontSize: 16,
+              color: Colors.black,
+            ),
+          ),
+        ],
       ),
     );
   }

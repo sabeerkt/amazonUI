@@ -20,13 +20,14 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
+      
       body: Center(
         child: Image.asset(
-          "assets/amzon.png", // Replace with the path to your image asset
-          width: 200.0, // Set the desired width
-          height: 200.0, // Set the desired height
-          // You can adjust other properties like width and height as needed
+          "assets/amzon.png",      
+          width: 200.0, 
+          height: 200.0, 
+          
         ),
       ),
       backgroundColor: Colors.white,

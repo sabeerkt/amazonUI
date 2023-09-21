@@ -142,9 +142,8 @@ class _buyAgainPageState extends State<buyAgainPage> {
                                                               .start,
                                                       children: [
                                                         const Text(
-                                                            'The Psychology Of Money'),
-                                                        const Text(
-                                                            'by Morgan Housel'),
+                                                            'samsung s23 '),
+                                                        const Text('samsung'),
                                                         const SizedBox(
                                                           height: 2,
                                                         ),
@@ -362,10 +361,10 @@ class _buyAgainPageState extends State<buyAgainPage> {
                                                               .start,
                                                       children: [
                                                         const Text(
-                                                            'The Monk Who Sold His '),
-                                                        const Text('Ferrari'),
+                                                            'samsung s23 '),
+                                                        const Text('samsung'),
                                                         const Text(
-                                                            'by Robin Sharma'),
+                                                            'by samsung'),
                                                         const SizedBox(
                                                           height: 2,
                                                         ),
@@ -527,9 +526,9 @@ class _buyAgainPageState extends State<buyAgainPage> {
                                                           CrossAxisAlignment
                                                               .start,
                                                       children: [
-                                                        const Text('CROCODILE'),
+                                                        const Text('s23'),
                                                         const Text(
-                                                            'Slim Fit Flat-Front Trousers'),
+                                                            'samsung s23 '),
                                                         const SizedBox(
                                                           height: 2,
                                                         ),
@@ -700,9 +699,9 @@ class _buyAgainPageState extends State<buyAgainPage> {
                                                           CrossAxisAlignment
                                                               .start,
                                                       children: [
-                                                        const Text('CROCODILE'),
+                                                        const Text('s23'),
                                                         const Text(
-                                                            'Slim Fit Flat-Front Trousers'),
+                                                            'samsung s23 '),
                                                         const SizedBox(
                                                           height: 2,
                                                         ),

@@ -146,138 +146,21 @@ class Menu extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'prime',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/cate1.png',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                               const SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'mobile',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/s22 shop.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                               SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Deals',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/Home1.png',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                             ],
                           ),
                         ),
@@ -289,138 +172,21 @@ class Menu extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Furniture',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/furniture.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                               const SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Fashion',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/fashion.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                               SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Grocery',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/grocery.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/facewash.jpeg",
+                                  text: "facewash"),
                             ],
                           ),
                         ),
@@ -432,138 +198,19 @@ class Menu extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'shoes',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/shoe.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/Home1.png", text: "home"),
                               const SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Facewash',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/facewash.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
-                           const    SizedBox(
+                              stack1(
+                                  imagepath: "assets/cate1.png", text: "prime"),
+                              const SizedBox(
                                 width: 5,
                               ),
-                              Stack(
-                                children: [
-                                  Container(
-                                    height: 200,
-                                    width: 125,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        color: Colors.white),
-                                    child: Container(),
-                                  ),
-                                  Positioned(
-                                    top: 100,
-                                    child: Container(
-                                      width: 130,
-                                      height: 100,
-                                      decoration: BoxDecoration(
-                                          borderRadius: const BorderRadius.only(
-                                              bottomLeft: Radius.circular(15),
-                                              bottomRight: Radius.circular(15),
-                                              topLeft: Radius.circular(80),
-                                              topRight: Radius.circular(80)),
-                                          color: Colors.cyan[50]),
-                                    ),
-                                  ),
-                                  const Positioned(
-                                    top: 12,
-                                    left: 8,
-                                    child: Text(
-                                      'Phone',
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ),
-                                  Positioned(
-                                      left: 5,
-                                      top: 50,
-                                      child: Image.asset(
-                                        'assets/oppophone.jpeg',
-                                        height: 120,
-                                        width: 120,
-                                      )),
-                                ],
-                              ),
+                              stack1(
+                                  imagepath: "assets/iphone.jpeg",
+                                  text: "mobile"),
                             ],
                           ),
                         ),
@@ -576,6 +223,50 @@ class Menu extends StatelessWidget {
           ],
         ),
       )),
+    );
+  }
+
+  Stack stack1({required String imagepath, required String text}) {
+    return Stack(
+      children: [
+        Container(
+          height: 200,
+          width: 125,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15), color: Colors.white),
+          child: Container(),
+        ),
+        Positioned(
+          top: 100,
+          child: Container(
+            width: 130,
+            height: 100,
+            decoration: BoxDecoration(
+                borderRadius: const BorderRadius.only(
+                    bottomLeft: Radius.circular(15),
+                    bottomRight: Radius.circular(15),
+                    topLeft: Radius.circular(80),
+                    topRight: Radius.circular(80)),
+                color: Colors.cyan[50]),
+          ),
+        ),
+        Positioned(
+          top: 12,
+          left: 8,
+          child: Text(
+            text,
+            style: TextStyle(fontSize: 20),
+          ),
+        ),
+        Positioned(
+            left: 5,
+            top: 50,
+            child: Image.asset(
+              imagepath,
+              height: 120,
+              width: 120,
+            )),
+      ],
     );
   }
 }

@@ -6,9 +6,9 @@ class account extends StatefulWidget {
   const account({super.key});
 
   @override
-   State<account> createState() => _accountState();
+  State<account> createState() => _accountState();
 }
-    
+
 class _accountState extends State<account> {
   @override
   Widget build(BuildContext context) {
@@ -176,36 +176,15 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 170,
-                      width: 160,
-                      child: Image.asset("assets/headphone11.jpeg"),
-                    ),
+                    scrooled1(),
                     const SizedBox(
                       width: 10,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 170,
-                      width: 160,
-                      child: Image.asset("assets/lapstand.jpeg"),
-                    ),
+                    scrooled1(),
                     const SizedBox(
                       width: 10,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 170,
-                      width: 160,
-                      child: Image.asset("assets/oppophone.jpeg"),
-                    ),
+                    scrooled1(),
                   ],
                 ),
               ),
@@ -246,25 +225,11 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 130,
-                      width: 190,
-                      child: Image.asset("assets/xaimiphone.jpeg"),
-                    ),
+                    scrool2(),
                     const SizedBox(
                       width: 10,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 130,
-                      width: 190,
-                      child: Image.asset("assets/menimg.jpeg"),
-                    ),
+                    scrool2(),
                     const SizedBox(
                       width: 10,
                     ),
@@ -328,25 +293,11 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 130,
-                      width: 190,
-                      child: Image.asset("assets/facewash.jpeg"),
-                    ),
+                     scrool2(),
                     const SizedBox(
                       width: 10,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(10)),
-                      height: 130,
-                      width: 190,
-                      child: Image.asset("assets/furniture.jpeg"),
-                    ),
+                     scrool2(),
                     const SizedBox(
                       width: 10,
                     ),
@@ -357,6 +308,28 @@ class _accountState extends State<account> {
           ),
         ),
       ),
+    );
+  }
+
+  Container scrool2() {
+    return Container(
+      decoration: BoxDecoration(
+          border: Border.all(color: Colors.grey),
+          borderRadius: BorderRadius.circular(10)),
+      height: 130,
+      width: 190,
+      child: Image.asset("assets/xaimiphone.jpeg"),
+    );
+  }
+
+  Container scrooled1() {
+    return Container(
+      decoration: BoxDecoration(
+          border: Border.all(color: Colors.grey),
+          borderRadius: BorderRadius.circular(10)),
+      height: 170,
+      width: 160,
+      child: Image.asset("assets/headphone11.jpeg"),
     );
   }
 }

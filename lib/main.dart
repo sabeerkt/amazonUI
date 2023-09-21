@@ -1,6 +1,6 @@
-import 'package:amazon/widgets/SCREEN/spalsh.dart';
 // ignore: unused_import
 import 'package:amazon/widgets/bottombar.dart';
+import 'package:amazon/widgets/spalsh.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
