@@ -86,56 +86,14 @@ class _yourorderState extends State<yourorder> {
               padding: const EdgeInsets.all(10.0),
               child: Column(
                 children: [
-                  SizedBox(
+                  const SizedBox(
                     height: 2,
                   ),
-                  Container(
-                    width: double.infinity,
-                    height: 60,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.white,
-                        border: Border.all(
-                            color: const Color.fromARGB(255, 218, 216, 216))),
-                    child: const Padding(
-                      padding: EdgeInsets.all(12),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "your order ",
-                            style: TextStyle(fontSize: 18),
-                          ),
-                          Icon(Icons.arrow_forward_ios_outlined)
-                        ],
-                      ),
-                    ),
-                  ),
-                  SizedBox(
+                  Tiles(text: "fdffvv"),
+                  const SizedBox(
                     height: 2,
                   ),
-                  Container(
-                    width: double.infinity,
-                    height: 60,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                        color: Colors.white,
-                        border: Border.all(
-                            color: const Color.fromARGB(255, 218, 216, 216))),
-                    child: const Padding(
-                      padding: EdgeInsets.all(12),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "subscribe and save ",
-                            style: TextStyle(fontSize: 18),
-                          ),
-                          Icon(Icons.arrow_forward_ios_outlined)
-                        ],
-                      ),
-                    ),
-                  ),
+                  Tiles(text: "fdffvv"),
                   const SizedBox(
                     height: 20,
                   ),
@@ -149,225 +107,72 @@ class _yourorderState extends State<yourorder> {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Column(
                     children: [
-                      SizedBox(
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "login and securty ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 2,  
-                      ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "your adrres  ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "login with amazon  ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "connect and device  ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "manage your profile ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "defult purchase settings ",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "manage prome memberships",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
+                      Tiles(text: "ooooo"),
+                      const SizedBox(
                         height: 2,
                       ),
-                      Container(
-                        width: double.infinity,
-                        height: 60,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                            color: Colors.white,
-                            border: Border.all(
-                                color:
-                                    const Color.fromARGB(255, 218, 216, 216))),
-                        child: const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                " membership and subscription",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Icon(Icons.arrow_forward_ios_outlined)
-                            ],
-                          ),
-                        ),
+                      Tiles(text: "fdffvv"),
+                      const SizedBox(
+                        height: 2,
                       ),
+                      Tiles(text: "fdffvv"),
                     ],
-                    
                   )
                 ],
               ),
             ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Container Tiles({String? text}) {
+    return Container(
+      width: double.infinity,
+      height: 60,
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+          color: Colors.white,
+          border: Border.all(color: const Color.fromARGB(255, 218, 216, 216))),
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(
+              text!,
+              style: const TextStyle(fontSize: 18),
+            ),
+            const Icon(Icons.arrow_forward_ios_outlined)
           ],
         ),
       ),
