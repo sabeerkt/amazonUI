@@ -147,8 +147,8 @@ class Menu extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               stack1(
-                                  imagepath: "assets/facewash.jpeg",
-                                  text: "facewash"),
+                                  imagepath: "assets/headphone.jpeg",
+                                  text: "headphone"),
                               const SizedBox(
                                 width: 5,
                               ),
@@ -159,8 +159,8 @@ class Menu extends StatelessWidget {
                                 width: 5,
                               ),
                               stack1(
-                                  imagepath: "assets/facewash.jpeg",
-                                  text: "facewash"),
+                                  imagepath: "assets/xaimiphone.jpeg",
+                                  text: "xaimiphone"),
                             ],
                           ),
                         ),
@@ -173,20 +173,19 @@ class Menu extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               stack1(
-                                  imagepath: "assets/facewash.jpeg",
-                                  text: "facewash"),
+                                  imagepath: "assets/s22.jpeg", text: "mobile"),
                               const SizedBox(
                                 width: 5,
                               ),
                               stack1(
-                                  imagepath: "assets/facewash.jpeg",
-                                  text: "facewash"),
+                                  imagepath: "assets/lapstand.jpeg",
+                                  text: "lapstand"),
                               SizedBox(
                                 width: 5,
                               ),
                               stack1(
-                                  imagepath: "assets/facewash.jpeg",
-                                  text: "facewash"),
+                                  imagepath: "assets/Mobiles.jpeg",
+                                  text: "mobile"),
                             ],
                           ),
                         ),

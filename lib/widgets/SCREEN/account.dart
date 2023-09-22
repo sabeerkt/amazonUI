@@ -176,15 +176,15 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    scrooled1(),
+                    scrooled1(imagepath: "assets/oppophone.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
-                    scrooled1(),
+                    scrooled1(imagepath: "assets/fashion.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
-                    scrooled1(),
+                    scrooled1(imagepath: "assets/deal.jpeg"),
                   ],
                 ),
               ),
@@ -225,11 +225,11 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    scrool2(),
+                    scrool2(imagepath: "assets/s22 shop.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
-                    scrool2(),
+                    scrool2(imagepath: "assets/xaimiphone.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
@@ -293,11 +293,11 @@ class _accountState extends State<account> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                     scrool2(),
+                    scrool2(imagepath: "assets/facewash.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
-                     scrool2(),
+                    scrool2(imagepath: "assets/s22 shop.jpeg"),
                     const SizedBox(
                       width: 10,
                     ),
@@ -311,25 +311,29 @@ class _accountState extends State<account> {
     );
   }
 
-  Container scrool2() {
+  Container scrool2({
+    required String imagepath,
+  }) {
     return Container(
       decoration: BoxDecoration(
           border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(10)),
       height: 130,
       width: 190,
-      child: Image.asset("assets/xaimiphone.jpeg"),
+      child: Image.asset(imagepath),
     );
   }
 
-  Container scrooled1() {
+  Container scrooled1({
+    required String imagepath,
+  }) {
     return Container(
       decoration: BoxDecoration(
           border: Border.all(color: Colors.grey),
           borderRadius: BorderRadius.circular(10)),
       height: 170,
       width: 160,
-      child: Image.asset("assets/headphone11.jpeg"),
+      child: Image.asset(imagepath),
     );
   }
 }
